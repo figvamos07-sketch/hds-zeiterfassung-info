@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – HDS Zeiterfassung</title>
+<style>:root { --bg:#eef6fd; --card:#fff; --ink:#1f2a37; --muted:#5b6675; --accent:#1f5fa8; color-scheme: light; } * { box-sizing: border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; } main { max-width:760px; margin:0 auto; padding:28px max(16px, env(safe-area-inset-left)) 40px; } header { margin-bottom:18px; } h1 { font-size:28px; line-height:1.25; margin:0 0 4px; text-wrap:balance; } h2 { font-size:19px; margin:26px 0 6px; } p, li { max-width:68ch; } .sub { color:var(--muted); margin:0; } .card { background:var(--card); border-radius:12px; padding:18px 20px; margin-top:16px; } nav { display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:12px; } a { color:var(--accent); } footer { color:var(--muted); font-size:14px; margin-top:30px; } code { background:#e6edf5; padding:1px 5px; border-radius:4px; }</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Datenschutzerklärung</h1>
+<p class="sub">App „HDS Zeiterfassung“ (Android) · Stand: 22.11.2026</p>
+<nav><a href="index.html">Startseite</a><a href="nutzungsbedingungen.html">Nutzungsbedingungen</a></nav>
+</header>
+
+<div class="card">
+<h2>1. Welche Daten verarbeitet die App?</h2>
+<p>Die App verarbeitet ausschließlich Zeitbuchungen: Zeitpunkt, Code der Mitarbeiterkarte, Art der Buchung, Auftragsnummer, Antwort des HDS-Servers und den Gerätenamen (z. B. „Samsung SM-T505“). Zum Lesen der Barcodes wird die Kamera verwendet; Kamerabilder werden nicht gespeichert.</p>
+
+<h2>2. Wo werden die Daten gespeichert?</h2>
+<ul>
+<li><strong>Auf dem Gerät</strong> (die letzten 3000 Buchungen).</li>
+<li><strong>Beim HDS-Server des Betriebs</strong> – dorthin sendet die App jede Buchung, das ist die Zeiterfassung selbst.</li>
+<li><strong>Optional bei „HDS Sync“</strong>, einem Programm auf einem Rechner im Firmennetz.</li>
+<li><strong>Optional im Cloud-Konto des Nutzers</strong> (Google Drive, Dropbox, OneDrive oder WebDAV), wenn der Nutzer dies in den Einstellungen selbst einschaltet und sein Konto verbindet.</li>
+</ul>
+<p>Der Herausgeber der App erhält keine Daten. Es gibt keine Werbung, keine Analyse- oder Tracking-Dienste und keine Weitergabe an Dritte.</p>
+
+<h2>3. Google Drive</h2>
+<p>Verbindet der Nutzer Google Drive, fordert die App nur die Berechtigung <code>https://www.googleapis.com/auth/drive.file</code> an. Damit kann sie nur Dateien lesen und schreiben, die sie selbst angelegt hat (Ordner „HDS-Zeiterfassung“, eine Textdatei pro Gerät und Tag). Andere Dateien im Google Drive sind für die App nicht sichtbar. Zusätzlich wird die E-Mail-Adresse des Google-Kontos gelesen, um anzuzeigen, welches Konto verbunden ist.</p>
+<p>Die Nutzung und Übertragung von Informationen, die die App von Google-APIs erhält, entspricht der <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, einschließlich der Anforderungen zur eingeschränkten Nutzung (Limited Use). Die Daten werden nur für die Synchronisation der Zeitbuchungen zwischen den Geräten des Nutzers verwendet.</p>
+
+<h2>4. Dropbox, OneDrive, WebDAV</h2>
+<p>Bei Dropbox und OneDrive nutzt die App nur ihren eigenen App-Ordner. Bei WebDAV werden Adresse, Benutzername und Passwort nur auf dem Gerät gespeichert und nur an den angegebenen Server gesendet.</p>
+
+<h2>5. Löschen und Widerruf</h2>
+<ul>
+<li>In der App unter Einstellungen → Cloud → „Konto trennen“ wird die Verbindung beendet.</li>
+<li>Die Daten in der Cloud lassen sich löschen, indem der Ordner „HDS-Zeiterfassung“ gelöscht wird.</li>
+<li>Den Zugriff für Google widerrufen: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+<li>Deinstallieren der App löscht alle Daten auf dem Gerät.</li>
+</ul>
+
+<h2>6. Verantwortlich und Kontakt</h2>
+<p>Verantwortlich für die Zeiterfassung ist der Betrieb, der die App einsetzt. Fragen zur App: über <a href="https://github.com/figvamos07-sketch">github.com/figvamos07-sketch</a>.</p>
+</div>
+</main>
+</body>
+</html>
